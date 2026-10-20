@@ -4,4 +4,4 @@ const tombolsapa = document.getElementById('sapahunter');
 tombolsapa.addEventListener('click', function() {
       // 3. Jalankan kode ini ketika tombol di-klik
       alert('Halo! Terima kasih sudah berkunjung!');
-  ));
+});
