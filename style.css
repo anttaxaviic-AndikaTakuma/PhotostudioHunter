@@ -1,25 +1,23 @@
+/* Pengaturan dasar untuk seluruh halaman web */
 body {
-      /*PERBAIKAN: Format warna kuning cerah diubah menjadi rgb */
-      background-color: rgb (255, 255, 0); /* warna kuning cerah */
-      font-family:Arial, sans-serif; /* jenis huruf yang bersih dan mudah dibaca */
-      
-      /* PERBAIKAN: Mengganti titik dua (:) di akhir baris menjadi titik koma (;) */
-      color: #191970; /* warna teks utama (biru gelap) */
+    background-color: #FFFFEB; /* Warna latar belakang kuning cerah */
+    font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
+    color: #191970; /* Warna teks utama (biru gelap) */
 }
 
-    .kartu-profil {
-          width: 300px;
-          margin: 50px auto; /* 50px jarak atas/bawah, auto menengah kotak ini ke tengah layar */
-          padding: 20px;
-          background-color: white; /* warna merah untuk kotak profil */
-          border-radius: 15px; /* membuat sudut kotak menjadi melengkung */
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*efek bayangan */
-          text-align: center; /* menengah semua teks di dalam kartu */
+/* Pengaturan untuk kotak kartu profil */
+.kartu-profil {
+    width: 300px;
+    margin: 50px auto; /* 50px jarak atas/bawah, auto untuk posisi di tengah kiri/kanan */
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px; /* Membuat sudut kotak menjadi melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan halus di bawah kartu */
+    text-align: center; /* Menengahkan seluruh teks dan elemen di dalam kartu */
 }
-|
 
-   .kartu-profil img {
-     width: 150px;
-     border-radius: 50px; /* trik untuk membuat gambar persegi menjadi lingkaran sempurna */
- }
-  
+/* Pengaturan khusus untuk foto di dalam kartu profil */
+.kartu-profil img {
+    width: 150px;
+    border-radius: 50%; /* Membuat gambar persegi menjadi lingkaran sempurna */
+}
